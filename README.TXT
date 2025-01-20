@@ -53,7 +53,7 @@ See how many gems you can collect!
 
 ---------------------------------------------------------------------------------------
 
-TIER 2:
+FEATURES/DETAILS:
 
 1. Shooting in one or more directions
 	-Main character throws shurikens
@@ -72,34 +72,29 @@ TIER 2:
 	-bills/affluence
 	-gems
 
----------------------------------------------------------------------------------------
-
-TIER 3:
-
-1. Constructors that take parameters
+6. Constructors that take parameters
 	-Gem constructor (gem type and whether it's acc part of the game)
 	-Shuriken constructor (direction of travel)
 
-2. Using and making accessors and mutators in classes
+7. Using and making accessors and mutators in classes
 	-MyWorld: getPlayer()A, getHealthBar()A
 	-Bill, Gem, Reload: isOnBlock()A
 	-Enemy: returnHasContactedPlayer()A, wasContacted()M
 	-Gem: hover()M, getGemType()A
 	-Player: enemyLeaked()M, isAtCenter()A
 	
-3. Changing the transparency of an image
+8. Changing the transparency of an image
 	-Main character's transparency is changed for a time after being contacted by an enemy
 
-4. Animations using arrays
+9. Animations using arrays
 	-Enemy
 	-Player
 	-Shuriken
 
 ---------------------------------------------------------------------------------------
 
-SELF-ASSESSMENT:
+REFLECTIONS:
 
-96% overall
 I used variables in new and interesting ways, I used arrays of images effectively, my code is
 decently efficient, there is much interaction between classes, there are minimal bugs (I think),
 the game is beyond the programming complexities of class tutorials, my commenting is thorough,
