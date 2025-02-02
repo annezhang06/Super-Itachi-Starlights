@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Gem
+comment0.text=\r\n\ The\ Player\ collects\ Gems,\ which\ are\ found\ on\ top\ of\ Blocks.\r\n\ There\ are\ three\ varieties\ of\ Gem\:\ Jubilation,\ Prosperity,\ and\ Harmony.\r\n\ \r\n
+comment1.params=typeNo\ partOfGame
+comment1.target=Gem(int,\ boolean)
+comment1.text=\r\n\ Gem\ Constructor\r\n\ The\ boolean\ parameter\ is\ necessary\ here\ b/c\ the\ three\ Gem\ objects\ that\r\n\ are\ shown\ in\ the\ top\ left\ as\ part\ of\ the\ Player's\ stats\ should\ *not*\r\n\ move\ left\ to\ simulate\ rightward\ running,\ so\ the\ act\ method\ only\ applies\r\n\ for\ Gems\ that\ are\ "in\ play"/part\ of\ the\ "game".\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Gem\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ moveLeft()
+comment3.text=\r\n\ Method\ moveLeft\r\n\ Simulate\ the\ Player\ running\ rightward\ when\ they're\ at\ the\ center\ of\ the\r\n\ world\ by\ moving\ to\ the\ left.\r\n
+comment4.params=
+comment4.target=boolean\ isOnBlock()
+comment4.text=\r\n\ Accessor\ isOnBlock\r\n\ Returns\ true\ if\ the\ Gem\ is\ "on"\ a\ Block\ when\ created;\ false\ otherwise.\r\n\ Called\ in\ the\ MyWorld\ class;\ Gems\ that\ aren't\ on\ a\ Block\ when\ added\r\n\ will\ be\ removed,\ right\ after\ being\ added.\r\n
+comment5.params=
+comment5.target=void\ hover()
+comment5.text=\r\n\ Mutator\ hover\r\n\ Called\ in\ the\ MyWorld\ class\ to\ make\ the\ Gem\ "hover"\ above\ the\ Blocks\ on\r\n\ which\ it\ exists\ (for\ visual\ appeal).\r\n
+comment6.params=
+comment6.target=java.lang.String\ getGemType()
+comment6.text=\r\n\ Method\ getGemType\r\n\ Returns\ the\ Gem's\ type.\r\n\ Called\ by\ Player\ to\ know\ what\ type\ of\ gem\ they've\ collected.\r\n
+numComments=7

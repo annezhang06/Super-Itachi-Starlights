@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=HealthBar
+comment0.text=\r\n\ Power\ bar\ showing\ the\ health\ of\ the\ Player,\ which\ decreases\r\n\ when\ they\ are\ contacted\ by\ an\ Enemy.\r\n
+comment1.params=
+comment1.target=HealthBar()
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ HealthBar\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ update()
+comment3.text=\r\n\ Method\ update\r\n\ Draw\ the\ HealthBar\ to\ show\ the\ current\ amount\ of\ playerHealth.\r\n
+comment4.params=
+comment4.target=void\ loseHealth()
+comment4.text=\r\n\ Mutator\ loseHealth\r\n\ Called\ in\ the\ Player\ class\ when\ the\ Player\ is\ contacted\ by\ an\ Enemy.\r\n
+comment5.params=
+comment5.target=void\ gainHealth()
+comment5.text=\r\n\ Method\ gainHealth\r\n\ While\ the\ HealthBar\ isn't\ full,\ add\ back\ "1"\ health\ every\r\n\ healthGainInterval\ iterations.\r\n
+comment6.params=
+comment6.target=void\ stopGameAtZeroHealth()
+comment6.text=\r\n\ Method\ stopGameAtZeroHealth\r\n\ If\ playerHealth\ reaches\ zero,\ end\ the\ game\ and\ play\ a\ trombone\ sound.\r\n
+numComments=7

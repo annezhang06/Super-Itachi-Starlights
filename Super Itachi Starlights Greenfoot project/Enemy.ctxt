@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Enemy
+comment0.text=\r\n\ Enemies\ (aka\ Starlight\ Glimmer\ from\ My\ Little\ Pony)\ appear\ and\ walk\ across\r\n\ at\ random\ intervals.\r\n\ Upon\ contact\ w/\ the\ Player,\ they\ decrease\ playerHealth\ in\ the\ HealthBar\ class.\r\n\ They\ can\ be\ extinguished\ by\ Shurikens\ that\ the\ Player\ throws.\r\n\ If\ an\ Enemy\ makes\ it\ across\ the\ screen\ w/o\ being\ extinguished,\ the\ Player\r\n\ loses\ affluence.\r\n\ \r\n
+comment1.params=
+comment1.target=Enemy()
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Enemy\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ animateWalking()
+comment3.text=\r\n\ Method\ animateWalking\r\n\ Animate\ the\ Enemy\ walking.\r\n
+comment4.params=
+comment4.target=void\ moveLeft()
+comment4.text=\r\n\ Method\ moveLeft\r\n\ In\ addition\ to\ moving\ left\ in\ the\ animateWalking\ method,\ move\ left\r\n\ additional\ cells\ to\ simulate\ the\ Player\ running\ rightward\ when\ they're\ at\r\n\ the\ center\ of\ the\ world.\r\n
+comment5.params=
+comment5.target=void\ checkForEdge()
+comment5.text=\r\n\ Method\ checkForEdge\r\n\ Remove\ the\ Enemy\ if\ it\ makes\ it\ across\ the\ screen\ and\ mutate\ Player\r\n\ variables\ accordingly.\r\n
+comment6.params=
+comment6.target=boolean\ returnHasContactedPlayer()
+comment6.text=\r\n\ Accessor\ returnHasContactedPlayer\r\n\ Called\ in\ the\ Player\ class\ to\ have\ the\ Player\ loses\ health\ a\ max.\ of\r\n\ one\ time\ per\ Enemy.\r\n
+comment7.params=
+comment7.target=void\ wasContacted()
+comment7.text=\r\n\ Mutator\ wasContacted\r\n\ Called\ in\ the\ Player\ class\ if\ contacted\ by\ an\ Enemy.\r\n\ Works\ collaboratively\ w/\ returnHasContactedPlayer.\r\n
+numComments=8

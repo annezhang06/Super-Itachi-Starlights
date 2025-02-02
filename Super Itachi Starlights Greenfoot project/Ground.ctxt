@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Ground
+comment0.text=\r\n\ The\ thing\ the\ Player\ and\ Enemy\ objects\ have\ a\ good\ time\ on.\r\n\ \r\n
+comment1.params=
+comment1.target=Ground()
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Ground\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ scrollLeft()
+comment3.text=\r\n\ Method\ scrollLeft\r\n\ Scroll\ left\ when\ the\ Player\ is\ running\ rightward\ at\ the\ center\ of\r\n\ the\ world\ to\ make\ it\ look\ like\ the\ game\ screen\ is\ a\ camera\ screen\r\n\ that's\ fixed\ on\ the\ Player\ as\ it\ traverses\ the\ land.\r\n\ The\ two\ Ground\ objects\ resetting\ their\ locations\ as\ soon\ as\ they've\ fully\r\n\ left\ the\ screen,\ like\ a\ conveyer\ belt,\ creates\ a\ scrolling\ effect.\r\n
+numComments=4

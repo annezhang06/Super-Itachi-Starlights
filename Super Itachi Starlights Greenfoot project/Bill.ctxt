@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Bill
+comment0.text=\r\n\ The\ Player\ can\ collect\ Bills\ (found\ on\ top\ of\ Blocks)\ to\ add\ to\ their\ affluence.\r\n\ Each\ Bill\ gives\ the\ Player\ a\ random\ affluence\ value\ between\ 1\ and\ 10.\r\n\ \r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Bill\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=
+comment2.target=void\ moveLeft()
+comment2.text=\r\n\ Method\ moveLeft\r\n\ Simulate\ the\ Player\ running\ rightward\ when\ they're\ at\ the\ center\ of\ the\r\n\ world\ by\ moving\ to\ the\ left.\r\n
+comment3.params=
+comment3.target=boolean\ isOnBlock()
+comment3.text=\r\n\ Accessor\ isOnBlock\r\n\ Returns\ true\ if\ the\ Bill\ is\ "on"\ a\ Block\ when\ created;\ false\ otherwise.\r\n\ Called\ in\ the\ MyWorld\ class;\ Bills\ that\ aren't\ on\ a\ Block\ when\ added\r\n\ will\ be\ removed,\ right\ after\ being\ added.\r\n
+numComments=4

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Reload
+comment0.text=\r\n\ Shuriken\ reload\ croissants\ found\ on\ top\ of\ Blocks.\r\n\ The\ Player\ can\ collect\ these\ to\ get\ more\ Shurikens.\r\n\ 1\ croissant\ \=\ 10\ Shurikens\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Reload\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=
+comment2.target=void\ moveLeft()
+comment2.text=\r\n\ Method\ moveLeft\r\n\ Simulate\ the\ Player\ running\ rightward\ when\ they're\ at\ the\ center\ of\ the\r\n\ world\ by\ moving\ to\ the\ left.\r\n
+comment3.params=
+comment3.target=void\ removeAtEdge()
+comment3.text=\r\n\ Method\ removeAtEdge\r\n\ Remove\ the\ croissant\ if\ it\ has\ crossed\ the\ entire\ screen.\r\n
+comment4.params=
+comment4.target=boolean\ isOnBlock()
+comment4.text=\r\n\ Accessor\ isOnBlock\r\n\ Returns\ true\ if\ the\ Reload\ is\ "on"\ a\ Block\ when\ created;\ false\ otherwise.\r\n\ Called\ in\ the\ MyWorld\ class;\ Reloads\ that\ aren't\ on\ a\ Block\ when\ added\r\n\ will\ be\ removed,\ right\ after\ being\ added.\r\n
+numComments=5

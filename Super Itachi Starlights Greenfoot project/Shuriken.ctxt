@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Shuriken
+comment0.text=\r\n\ The\ "bullet"\ of\ this\ game.\r\n\ The\ Player\ can\ extinguish\ Enemies\ by\ throwing\ Shurikens,\r\n\ of\ which\ they\ have\ a\ limited\ number\ (but\ they\ can\ get\ Reloads).\r\n\ \r\n
+comment1.params=goingRight
+comment1.target=Shuriken(boolean)
+comment1.text=\r\n\ Shuriken\ Constructor\r\n\ When\ the\ Shuriken\ is\ created,\ it\ is\ set\ to\ travel\ either\r\n\ right\ or\ left.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Bullet\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ spin()
+comment3.text=\r\n\ Method\ spin\r\n\ Animate\ the\ Shuriken\ spinning\ using\ an\ array\ of\ frames.\r\n
+comment4.params=
+comment4.target=void\ travel()
+comment4.text=\r\n\ Method\ travel\r\n\ In\ addition\ to\ moving\ either\ +10\ or\ -10\ (based\ on\ direction\ set\r\n\ during\ construction)\ per\ iter,\ also\ simulate\ the\ Player's\ running\ w/\r\n\ everyone\ else\ when\ the\ player\ is\ at\ the\ center.\r\n
+comment5.params=
+comment5.target=void\ checkForEnemy()
+comment5.text=\r\n\ Method\ checkForEnemy\r\n\ Check\ if\ the\ Shuriken\ is\ touching\ an\ Enemy.\r\n\ If\ it\ is,\ consider\ it\ extinguished.\r\n
+comment6.params=
+comment6.target=void\ removeIfNecessary()
+comment6.text=\r\n\ Method\ removeIfNecessary\r\n\ Remove\ the\ Shuriken\ if\ it's\ hit\ an\ Enemy\ or\ if\ it's\ reached\ the\r\n\ edge\ of\ the\ world.\r\n
+numComments=7

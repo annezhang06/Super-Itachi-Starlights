@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Hills
+comment0.text=\r\n\ Knockoff\ old-school\ Windows\ background.\r\n
+comment1.params=
+comment1.target=Hills()
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Background\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ scrollLeft()
+comment3.text=\r\n\ Method\ scrollLeft\r\n\ When\ the\ Player\ is\ running\ rightward\ and\ in\ the\ center\ of\ the\ world,\r\n\ slowly\ move\ left\ as\ the\ Player\ stays\ in\ the\ same\ spot.\r\n\ The\ two\ Hills\ objects\ resetting\ their\ locations\ as\ soon\ as\ they've\ fully\r\n\ left\ the\ screen,\ like\ a\ conveyer\ belt,\ creates\ a\ scrolling\ effect.\r\n
+numComments=4
